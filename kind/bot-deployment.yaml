@@ -20,11 +20,6 @@ spec:
         - env:
             - name: EMBEDDING_MODEL
               value: sentence_transformer
-            - name: LANGCHAIN_ENDPOINT
-              value: '"https://api.smith.langchain.com"'
-            - name: LANGCHAIN_PROJECT
-            - name: LANGCHAIN_TRACING_V2
-              value: "false"
             - name: LLM
               value: mistral
             - name: NEO4J_PASSWORD
